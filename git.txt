@@ -57,3 +57,6 @@ git log --oneline --decorate --graph --all
 
 git merge <branchtomerge>
 - take changes on different branches and combine them together automatically
+
+git diff
+- to see differences bewteen your commits
