@@ -7,24 +7,36 @@ git clone <URL>
 git status
 - check status of your repo
 
-git add -A 
+git add -A
 - stage all
 
-git add . 
+git add .
 - stage new and modified, without deleted
 
-git add -u 
+git add -u
 - stage modified and deleted, without new
+
+git add -p <filename>
+- stage some changes in file
 
 git remote add origin <URL>
 - add new remote repository
 
+git remote rm <remote-name>
+- remove remote repository
+
 git remote set-url origin <newURL>
 - change the url of an existing remote repository
+
+git remote -v
+- list all remotes
 
 git push -u origin master
 - push code to master branch of the remote repository defined with origin and -u lets you point your current local branch to the remote master branch
 - you can use 'git push' next time you push
+
+git branch
+- list local branches
 
 git checkout <branchname/SHA>
 - checkout a branch
@@ -32,7 +44,7 @@ git checkout <branchname/SHA>
 git checkout -b <newbranchname>
 - create a new branch
 
-git branch -d <branchname> 
+git branch -d <branchname>
 - delete a branch
 
 git log
