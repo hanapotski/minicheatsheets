@@ -1,0 +1,21 @@
+official guide - http://codex.wordpress.org/Installing_WordPress
+
+make a directory
+download wp - https://wordpress.org/download/
+unzip wp into directory
+create database
+MAMP, open webstart page > phpMyAdmin
+Databases > create database
+configure wp, wp-config.php
+find $table_prefix and change it to anything else with numbers and letters, 'wp_' => $table_prefix = 'xyz77';
+https://api.wordpress.org/secret-key/1.1/salt/
+
+wp-content > themes
+style.css
+/*
+Theme Name: Start WordPress
+Author: 
+Description:
+Version: 0.0.1
+Tags: bootstrap
+*/
