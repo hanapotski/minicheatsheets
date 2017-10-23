@@ -21,7 +21,7 @@ tab
 
 rm
 - remove
-- rm <filename>
+- Eg. rm <filename>
 
 rm -rf
 - remove entire directory
@@ -32,19 +32,34 @@ rm -rf
 
 touch
 - make a new file
-- touch <filename>
+- Eg. touch <filename>
 
 touch filename filename
 - create multiple files at once
 
 mkdir
 - make a new directory
-- mkdir <foldername>
+- Eg. mkdir <foldername>
 
 mkdir <filename> <filename>
 - create 2 directories at once
 
+rmdir
+- Removes the directory.
+- Eg. rmdir toBeRemoved
+
 mv
 - move and rename files
-- mv <filename> <path/newname>
+- Eg. mv <filename> <path/newname>
 
+cp
+- Copy files from one directory to another.
+- Eg. cp new.txt /home/someDirectory/
+
+man
+- For getting the manual of a command.
+- Eg. man cd
+
+locate
+- Used to Locate a file in Linux OS. Returns absolute path to that file. 
+- Eg. locate index.html
