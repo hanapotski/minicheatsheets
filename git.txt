@@ -1,0 +1,47 @@
+git init
+- initialize repository
+
+git clone <URL>
+- clone a remote repository to your local machine
+
+git status
+- check status of your repo
+
+git add -A 
+- stage all
+
+git add . 
+- stage new and modified, without deleted
+
+git add -u 
+- stage modified and deleted, without new
+
+git remote add origin <URL>
+- add new remote repository
+
+git remote set-url origin <newURL>
+- change the url of an existing remote repository
+
+git push -u origin master
+- push code to master branch of the remote repository defined with origin and -u lets you point your current local branch to the remote master branch
+- you can use 'git push' next time you push
+
+git checkout <branchname/SHA>
+- checkout a branch
+
+git checkout -b <newbranchname>
+- create a new branch
+
+git branch -d <branchname> 
+- delete a branch
+
+git log
+- display information about the existing commits
+- q to quit
+
+git log --oneline --decorate --graph --all
+- display all branches in repo
+- q to quit
+
+git merge <branchtomerge>
+- take changes on different branches and combine them together automatically
