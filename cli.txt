@@ -1,0 +1,50 @@
+pwd
+- print working directory
+
+ls
+- list
+- shows all files and folders of current directory
+
+ls -a
+- list all files including hidden files
+
+cd
+- change directory
+- go inside a folder
+- cd <folder name>
+
+ cd ..
+ - go back one level
+
+tab
+- automatically completes filename
+
+rm
+- remove
+- rm <filename>
+
+rm -rf
+- remove entire directory
+- (rf)recursive force - remove child directories
+- force delete everything inside the folder
+- rm -rf <filename>
+- rm -rf / - dangerous, will remove root directory
+
+touch
+- make a new file
+- touch <filename>
+
+touch filename filename
+- create multiple files at once
+
+mkdir
+- make a new directory
+- mkdir <foldername>
+
+mkdir <filename> <filename>
+- create 2 directories at once
+
+mv
+- move and rename files
+- mv <filename> <path/newname>
+
