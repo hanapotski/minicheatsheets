@@ -18,8 +18,17 @@ I was inspired to do this after someone showed me that this is possible. I wante
 
 Fork this repo and then clone it.  
 Go to https://keep.google.com  
-Copy and paste the text inside the files you   
+Copy and paste the text inside the files you downloaded.
+If you want to add a picture at the top of the note, just drag a picture into the note. (I've included the pictures I used in the logos folder or you can use your own picture) 
 
 
 ## Contributing
 Feel free to make pull requests to add, change/edit, and use this :octocat:
+
+Never made a pull request?  
+Don't worry, this repo will teach you how:
+[first-contributions](https://github.com/Roshanjossey/first-contributions/blob/master/README.md)
+
+Join [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and make at least 4 pull requests to get a limited edition shirt and this :cookie: !
+
+
