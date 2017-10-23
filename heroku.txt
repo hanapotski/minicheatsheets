@@ -1,0 +1,14 @@
+heroku create <reponame>
+- create new repository on heroku
+
+git remote -v
+- check remote repositories
+
+git push heroku master
+- push to heroku
+
+heroku run rails db:migrate
+heroku logs
+
+heroku open
+- open app
