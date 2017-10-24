@@ -1,35 +1,35 @@
 pwd
--print working directory
+- print working directory
 
 ls [options][location]
--list folders/files in directory
+- list folders/files in directory
 
 cd [location]
--change directory
--if run without arguments, takes to home directory
+- change directory
+- if run without arguments, takes to home directory
 
 mkdir [name]
--make directory
+- make directory
 
 rm [file], rm -r [directory], rm -f [file], rm -rf [directory]
--remove file
+- remove file
 - -f removes forcefully
 
 cp [file] [file], cp -r [directory] [directory]
--copy 1st file/directory to second file/directory
+- copy 1st file/directory to second file/directory
 
 mv [file] [file]
--rename/move 1st file to 2nd file
--if 2nd file is directory, moves 1st file there
+- rename/move 1st file to 2nd file
+- if 2nd file is directory, moves 1st file there
 
 more [file]
--outputs contents of file
+- outputs contents of file
 
 touch [file]
--create/update file
+- create/update file
 
 head [file]
--outputs 1st 10 lines of file
+- outputs 1st 10 lines of file
 
 tail [file]
--outputs last 10 lines of file
+- outputs last 10 lines of file
