@@ -1,1 +1,10 @@
+pwd
+-print working directory
+
+ls [options][location]
+-list folders/files in directory
+
+cd [location]
+-change directory
+-if run without arguments, takes to home directory
 
