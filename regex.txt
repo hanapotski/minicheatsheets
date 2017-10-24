@@ -1,0 +1,50 @@
+Regex
+=====================================
+Inside the slashes  / your regex /  :
+=====================================
+[0-9] 
+  - any number
+  
+[a-z]
+  -any lowercase letter
+  
+ [A-Z]
+  - any uppercase letter
+  
+()
+  -to find a group of character
+  
+{}
+  -to specify how many character you're looking for
+  - example: /[0-9]{3}/ will look for a sequence of 3 digits. 
+  |
+    - the pipe is named alternator, to be used when you're looking for variations on a pattern
+    - example: /regex|RegEx/ will find the chain "regex" and the chain "RegEx"
+  \
+    - to escape special characters
+    
+  ^(regex)
+    -to find occurence of "regex" that is located specifically at the BEGINNING of a string.
+   (regex)$
+    to find occurence of "regex" that is specifically at the END of a string.
+    
+====================    
+Outside the slashes:
+====================  
+
+/ your regex /g
+  - will look for all occurences matching your regex. (Otherwise it stops searching after the first result)
+
+/ your regex /i
+  -will ignore case, so will return YOUR REGEX as well as Your Regex as well as your regex, as well as YOUR regex etc...
+  
+  
+=======================================  
+******** Useful Websites !!! **********
+=======================================
+  
+  
+  Testing your regex:
+    https://regexr.com/
+    
+    https://regex101.com/

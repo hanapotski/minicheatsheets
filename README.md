@@ -16,10 +16,10 @@ I was inspired to do this after someone showed me that this is possible. I wante
 
 ![addcheatsheet.gif](logos/addcheatsheet.gif)
 
-Fork this repo and then clone it.  
-Go to https://keep.google.com  
-Copy and paste the text inside the files you downloaded.
-If you want to add a picture at the top of the note, just drag the picture into the note. (I've included the pictures I used in the logos folder or you can use your own picture) 
+1. Fork this repo and then clone it.  
+2. Go to https://keep.google.com  
+3. In a new Google Keep note, copy and paste the text of one of the .txt files you've just downloaded.
+3. If you want to add a picture at the top of the note, just drag the picture into the note. (I've included the pictures I used in the logos folder or you can use your own picture) 
 
 
 ## Contributing
