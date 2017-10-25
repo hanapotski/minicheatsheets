@@ -17,3 +17,15 @@ Meta Description Tag
 Image
 
 <img src="img/keyword.jpg" alt="keyword" width="100" height="100">
+
+HTTP Status Codes
+
+200 OK/Success
+301 Permanent Redirect
+302 Temporary Redirect
+404 Not Found
+410 Gone (Permanently removed)
+500 Server Error
+503 Unavailable (Retry later)
+
+
