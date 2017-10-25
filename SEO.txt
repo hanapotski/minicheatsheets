@@ -1,1 +1,19 @@
 
+Important HTML Elements 
+
+Title Tag
+
+<head>
+ <title>Page Title</title>
+</head>
+
+Meta Description Tag
+
+<head>
+ <meta name="description"
+ content="This is an example.">
+</head>
+
+Image
+
+<img src="img/keyword.jpg" alt="keyword" width="100" height="100">
