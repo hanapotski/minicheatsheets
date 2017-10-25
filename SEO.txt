@@ -43,3 +43,21 @@ Choose shorter, human-readable URLs with descriptive keywords
 
 Recommended: https://example.com/blog
 Less Ideal: https://blog.example.com 
+
+Canonicalization
+
+Common Duplicate Homepage URLs
+
+https://www.example.com
+https://example.com
+https://www.example.com/index.html
+https://example.com/index.html
+https://example.com/index.html&sessid=123
+
+
+Canonicalized URL Best Practices
+
+Preferred URL = https://example.com/
+
+Place the following in <head> section to indicate preferred URL:
+<link href="https://example.com/" rel="canonical" />
