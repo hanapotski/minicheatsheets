@@ -33,3 +33,13 @@ Webmaster Tools
 - Google Webmaster Tools (https://www.google.com/webmasters/tools/home)
 - Bing Webmaster Tools (https://www.bing.com/toolbox/webmaster/)
 - Yandex Webmaster (https://webmaster.yandex.com)
+
+SEO Tips for URLs
+
+Choose shorter, human-readable URLs with descriptive keywords
+
+- Exclude dynamic parameters when possible (see Canonicalization and Pagination)
+- When possible, place content on the same subdomain to preserve authority
+
+Recommended: https://example.com/blog
+Less Ideal: https://blog.example.com 
