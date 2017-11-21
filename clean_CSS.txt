@@ -1,0 +1,24 @@
+/*-------------- General --------------*/
+
+/* HTML element selectors, for example body, h1, p.... */
+
+/*-------------- Header --------------*/
+
+/* selectors found in the Header: IDs or classes... */
+
+/*-------------- Navigation --------------*/
+/* your navbar selectors... */
+
+/*-------------- Section --------------*/
+
+
+/*-------------- Footer --------------*/
+
+
+/*-------------- Responsive rules --------------*/
+
+/* 
+============== REMEMEBER!!! =============
+Use ALPHABETCIAL ORDER to write your properties! 
+=========================================
+*/

@@ -60,3 +60,8 @@ git merge <branchtomerge>
 
 git diff
 - to see differences bewteen your commits
+
+git commit -m <add commit message in quotes>
+-to add a commit message
+
+
