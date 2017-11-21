@@ -1,0 +1,75 @@
+hub is a command-line wrapper for git that makes you better at GitHub.
+
+install hub:
+https://hub.github.com/
+
+generate a new ssh key and add it on github:
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+make a new folder
+- mkdir <folder name>
+
+initialize a new repo
+- git init
+
+create a new hub
+- hub create
+
+
+
+
+----------------------------------
+# OS X: install the latest release
+$ brew install hub
+
+# Other platforms: fetch a precompiled binary release, or build your own from source.
+# You will need Go development environment.
+$ git clone https://github.com/github/hub.git && cd hub
+# assuming that `~/bin` is in your PATH:
+$ script/build -o ~/bin/hub
+
+# alias it as git
+$ alias git=hub
+
+$ git version
+git version 2.1.4
+hub version 2.2.0 # ← it works!
+
+
+
+As a contributor to open-source
+
+# clone your own project
+$ git clone dotfiles
+→ git clone git://github.com/YOUR_USER/dotfiles.git
+
+# clone another project
+$ git clone github/hub
+→ git clone git://github.com/github/hub.git
+
+# open the current project's issues page
+$ git browse -- issues
+→ open https://github.com/github/hub/issues
+
+# open another project's wiki
+$ git browse mojombo/jekyll wiki
+→ open https://github.com/mojombo/jekyll/wiki
+# Example workflow for contributing to a project:
+$ git clone github/hub
+$ cd hub
+# create a topic branch
+$ git checkout -b feature
+  ( making changes ... )
+$ git commit -m "done with feature"
+
+# It's time to fork the repo!
+$ git fork
+→ (forking repo on GitHub...)
+→ git remote add YOUR_USER git://github.com/YOUR_USER/hub.git
+
+# push the changes to your new remote
+$ git push YOUR_USER feature
+# open a pull request for the topic branch you've just pushed
+$ git pull-request
+→ (opens a text editor for your pull request message)
+
