@@ -1,5 +1,7 @@
 # Mini Cheat Sheets
 
+
+johnahnz0rs is l33t
 ---
 
 ![minicheatsheets](logos/minicheatsheets.gif)
@@ -32,3 +34,5 @@ Don't worry, this repo will teach you how:
 Join [Hacktoberfest](https://hacktoberfest.digitalocean.com/) and make at least 4 pull requests to get a limited edition shirt and a virtual :cookie: !
 
 
+Contributors:
+hanapotski, 0x48piraj, AurelieBayre, chyku, ConnectExtend, xtine88, zsoltime, KirankumarAmbati
